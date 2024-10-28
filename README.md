@@ -80,39 +80,30 @@ En adelante se explicitan las fórmulas provenientes de teoría de rentas:
 
 ## PV_RGG finita
 
-$$
-\begin{equation*}
+$$\begin{equation*}
 PV_{RGG} = \left\{\begin{matrix}
 R_1 \left[\frac{1-(\frac{1+g\%}{1+t\%})^{nper}}{(t\%-g\%)}\right]& ; & t\% <> g\% \\
 R_1 \left[\frac{nper}{(1+t\%)}\right] & ; &  t\% = g\%\\
 \end{matrix}\right.
-\end{equation*}
-$$
+\end{equation*}$$
 
 ## PV_RGG perpetua
 
-$$
-\begin{equation*}
+$$\begin{equation*}
 PV_{RGG_{Perp}} = \left\{\begin{matrix}
 \frac{R_1}{t\% - g\%} & ; & t\% > g\% \\
 \infty & ; &  t\% <= g\%\\
 \end{matrix}\right.
-\end{equation*}
-$$
-
+\end{equation*}$$
 
 
 
 ## PV_RGA finita
 
-$$
-PV_{RGA} = R_1 \left[\frac{1-(1+t\%)^{-nper}}{t\%}\right] + 
-\frac{G}{t\%} \left[\frac{1-(1+t\%)^{-nper}}{t\%} - \frac{nper}{(1+t\%)^{nper}} \right]
-$$
+$$PV_{RGA} = R_1 \left[\frac{1-(1+t\%)^{-nper}}{t\%}\right] + 
+\frac{G}{t\%} \left[\frac{1-(1+t\%)^{-nper}}{t\%} - \frac{nper}{(1+t\%)^{nper}} \right]$$
 
 
 ## PV_RGA perpetua
 
-$$
-PV_{RGA_{Perp}} = \left[ \frac{R_1}{t\%}\right] + \left[ \frac{G}{t\%^2}\right]
-$$
+$$PV_{RGA_{Perp}} = \left[ \frac{R_1}{{t\%}}\right] + \left[ \frac{G}{{t\%}^2}\right]$$
