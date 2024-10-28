@@ -79,23 +79,22 @@ que la renta.
 En adelante se explicitan las fórmulas provenientes de teoría de rentas:
 
 ## PV_RGG finita
-Cuando $ t <> g $:
+Cuando $t<>g$ :
 
 $$PV_{RGG} = R_1 \left[\frac{1-(\frac{1+g}{1+t})^{nper}}{(t-g)}\right]$$ 
 
-Cuando $t = g$:
+Cuando $t=g$ :
 
 $$PV_{RGG} = R_1 \left[\frac{nper}{(1+t)}\right]$$ 
 
 
 ## PV_RGG perpetua
 
-Cuando $t > g$:
+Cuando $t>g$ :
 
 $$PV_{RGG_{Perp}} = \frac{R_1}{t - g}$$
 
-Cuando $t <= g$, entonces, $ PV_{RGG_{Perp}} = \infty$.
-
+Cuando $t<=g$, entonces, $PV_{RGG_{Perp}}=\infty$.
 
 
 ## PV_RGA finita
