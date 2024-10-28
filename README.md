@@ -36,7 +36,7 @@ fórmulas financieras nativas de MS Excel con el objeto que su uso
 minimice posibles fricciones con usuarios financieros recurrentes de
 la suit de Microsoft.
 
-## Funciones
+## Funciones: Descripción
 
 ### Valor Presente
 - PV_RGG:         Valor presente de una renta con gradiente geométrica 
@@ -62,3 +62,46 @@ la suit de Microsoft.
 - Factor_RGG_cPER   Factor de actualización de una renta con gradiente geométrica con perpetuidad
 - Factor2_RGA       Factor de actualización de una renta con gradiente aritmética (factor del segundo monomio)
 - Factor2_RGA_cPER  Factor de actualización de una renta con gradiente aritmética con perpetuidad (factor del segundo monomio)
+
+# Funciones: Fórmulas
+
+Todas las fórmulas internamente adoptan la sintaxis básicas de las
+funciones básicas de MS Excel. En ese sentido:
+- PV:   Present Value / Valor Presente
+- R:    Renta uniforme
+- R1:   Renta inicial de la serie con gradiente
+- t%:   Tasa de descuento o interés, expresado como tasa efectiva en
+en mismo periodo que el flujo de caja.
+- g%:   Gradiente geométrica o tasa de crecimiento geométrico, expresado como porcentaje
+- G:    Gradiente  aritmética, expresado en las mismas unidades monetarias
+que la renta.
+
+En adelante se explicitan las fórmulas provenientes de teoría de rentas:
+
+## PV_RGG finita
+
+\begin{equation*}
+PV_{RGG} = \left\{\begin{matrix}
+R_1 \left[\frac{1-(\frac{1+g\%}{1+t\%})^{nper}}{t\%-g\%}\right]& ; & t\% <> g\% \\
+\left[\frac{nper * R_1}{1+t\%}\right] & ; &  t\% <> g\%\\
+\end{matrix}\right.
+\end{equation}
+
+## PV_RGG perpetua
+
+\begin{equation*}
+PV_{RGG_Perp} = \left\{\begin{matrix}
+\frac{R_1}{t\% - g%}  / & ; & t\% > g\% \\
+\infty & ; &  t\% <= g\%\\
+\end{matrix}\right.
+\end{equation}
+
+## PV_RGA finita
+
+$$ PV_{RGA} = R_1 \times \left[\frac{1-(1+t\%)^-nper}{t\%}\right] + 
+\frac{G}{t\%} \times \left[\frac{1-(1+t\%)^-nper}{t\%} - \frac{nper}{(1+t\%)^nper} \right]$$
+
+## PV_RGA perpetua
+
+$$ PV_{RGA_Perp} = \left[ \frac{R_1}{t\%}\right] + \left[ \frac{G}{t\%^2}\right]$$
+
