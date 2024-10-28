@@ -70,39 +70,39 @@ funciones básicas de MS Excel. En ese sentido:
 - PV:   Present Value / Valor Presente
 - R:    Renta uniforme
 - R1:   Renta inicial de la serie con gradiente
-- t%:   Tasa de descuento o interés, expresado como tasa efectiva en
+- t:   Tasa de descuento o interés, expresado como tasa efectiva en
 en mismo periodo que el flujo de caja.
-- g%:   Gradiente geométrica o tasa de crecimiento geométrico, expresado como porcentaje
+- g:   Gradiente geométrica o tasa de crecimiento geométrico, expresado como porcentaje
 - G:    Gradiente  aritmética, expresado en las mismas unidades monetarias
 que la renta.
 
 En adelante se explicitan las fórmulas provenientes de teoría de rentas:
 
 ## PV_RGG finita
-Cuando $t\% <> g\%$:
+Cuando $ t <> g $:
 
-$$PV_{RGG} = R_1 \left[\frac{1-(\frac{1+g\%}{1+t\%})^{nper}}{(t\%-g\%)}\right]$$ 
+$$PV_{RGG} = R_1 \left[\frac{1-(\frac{1+g}{1+t})^{nper}}{(t-g)}\right]$$ 
 
-Cuando $t\% = g\%$:
+Cuando $t = g$:
 
-$$PV_{RGG} = R_1 \left[\frac{nper}{(1+t\%)}\right]$$ 
+$$PV_{RGG} = R_1 \left[\frac{nper}{(1+t)}\right]$$ 
 
 
 ## PV_RGG perpetua
 
-Cuando $t\% > g\%$:
+Cuando $t > g$:
 
-$$PV_{RGG_{Perp}} = \frac{R_1}{t\% - g\%}$$
+$$PV_{RGG_{Perp}} = \frac{R_1}{t - g}$$
 
-Cuando $t\% <= g\%$, entonces, $ PV_{RGG_{Perp}} = \infty$.
+Cuando $t <= g$, entonces, $ PV_{RGG_{Perp}} = \infty$.
 
 
 
 ## PV_RGA finita
 
-$$PV_{RGA} = R_1 \left[\frac{1-( 1+t\% )^{-nper}}{ t\% }\right] + \frac{G}{t\%} \left[\frac{1-( 1+t\% )^{-nper}}{t\%} - \frac{nper}{(1+t\%) ^{nper}} \right]$$
+$$PV_{RGA} = R_1 \left[\frac{1-( 1+t )^{-nper}}{ t }\right] + \frac{G}{t} \left[\frac{1-( 1+ t)^{-nper}}{t} - \frac{nper}{(1+t) ^{nper}} \right]$$
 
 
 ## PV_RGA perpetua
 
-$$PV_{RGA_{Perp}} = \left[ \frac{R_1}{ t\% }\right] + \left[ \frac{G}{t\% ^2}\right]$$
+$$PV_{RGA_{Perp}} = \left[ \frac{R_1}{ t }\right] + \left[ \frac{G}{t^2}\right]$$
