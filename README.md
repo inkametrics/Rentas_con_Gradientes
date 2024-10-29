@@ -5,8 +5,9 @@ INKAPITALES
 ---
 En colaboración
 [Cibertec](https://www.cibertec.org)
----
 
+
+---
 ### Calculadora Rentas con Gradientes
 
 - Se desarrollaron UDFs (Funciones Definidas por el Usuario)
