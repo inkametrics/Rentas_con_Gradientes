@@ -1,0 +1,35 @@
+' #################### INKAMETRICS | INKAPITALES ############################
+' ################ Desarrollado por Alfonso Chang MSc. ######################
+' ################## Correo: alfonso@inkapitales.com ########################
+' ############# Rentas con Gradientes Geometrica y Aritmetica ###############
+' ############### Formulas de Valor Presente y Valor Futuro #################
+' ############################ v04 [Oct 2024] ###############################
+
+Pasos:
+1. Descargar del repositorio el archivo: ".exe" o ".xlam"
+
+2. Si descargó el ejecutable "*.exe", ejecutarlo y dirigirse a la carpeta:
+C:\Macros\Renta_con_Gradientes
+copiar el archivo: "RentasconGradientes4.xlam".
+
+3. Dirigirse a la carpeta en la siguiente ruta: 
+C:\Users\[Usuario]\AppData\Roaming\Microsoft\AddIns
+y pegar el archivo en su interior.
+
+4. Abrir Ms Excel.
+
+5. Acceder al menú: 
+[Es] Archivo > Opciones > Complementos > Complementos Excel > GO
+[En] File > Options > Add-ins > Excel Add-ins > GO
+
+6. Venta "Complementos": 
+Verificar la casilla: "Formula de Rentas con Gradientes"
+
+7. Luego de ello dar clic en "Aceptar" u "OK"
+
+8. Verificar que esta en uso la aplicacion, si puede visualizar la cinta "Gradients".
+
+9. Desactivar la verificación del complemento cuando lo considere.
+
+Nota:
+El archivo ".xlsm" contiene ejemplos de uso de cada funcion y factor.
