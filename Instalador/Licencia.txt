@@ -1,0 +1,72 @@
+Licencia de Uso de Software
+
+Calculadora "Rentas con Gradientes"
+
+InkaMetrics.Com & Cibertec.Org
+
+Versión 4.0
+
+Fecha de entrada en vigor: 20/10/2024
+
+1. Definiciones
+
+Software: Se refiere a la calculadora "Rentas con Gradientes", que incluye el código fuente, documentación, archivos de instalación y cualquier otro componente asociado.
+
+Licenciatarios: InkaMetrics.Com y Cibertec.Org, quienes son los propietarios del Software.
+
+Usuario: Cualquier persona física o jurídica que acceda, instale o utilice el Software bajo los términos de esta licencia.
+
+2. Objeto de la Licencia
+
+Esta licencia tiene como objeto establecer los términos bajo los cuales el Usuario puede utilizar, modificar y distribuir el Software, así como las restricciones aplicables a dichas actividades.
+
+3. Permisos Concedidos
+
+El Licenciatario otorga al Usuario los siguientes derechos:
+
+Uso Personal y Educativo: El Usuario puede instalar y utilizar el Software en dispositivos de su propiedad para fines personales, educativos o profesionales.
+
+Modificación: El Usuario tiene el derecho de modificar el Software para adaptarlo a sus necesidades específicas. Cualquier modificación realizada debe ser documentada adecuadamente para garantizar la claridad en las versiones del Software.
+
+Distribución: El Usuario puede distribuir copias del Software, ya sea en su forma original o modificada, siempre que se cumplan las siguientes condiciones:
+
+Se incluya una copia de esta licencia junto con el Software distribuido.
+Se acredite a InkaMetrics y Cibertec.Org como autores originales del Software.
+Se proporcione acceso al código fuente de cualquier versión modificada distribuida.
+4. Restricciones
+
+El Usuario acepta las siguientes restricciones al utilizar el Software:
+
+No Comercialización: El Software no puede ser vendido, arrendado, licenciado ni comercializado de ninguna otra forma. El Usuario no podrá recibir compensación económica alguna por el uso o distribución del Software.
+
+Prohibición de Uso Comercial: No se permite el uso del Software para fines comerciales o lucrativos. Esto incluye, pero no se limita a, la incorporación del Software en productos o servicios que se ofrezcan a la venta.
+
+Prohibición de Reverse Engineering: El Usuario no debe descompilar, desensamblar o realizar ingeniería inversa del Software, salvo en la medida en que dicha actividad esté expresamente permitida por la legislación aplicable.
+
+5. Atribución y Reconocimiento
+
+Cualquier distribución del Software, ya sea en su forma original o modificada, debe incluir la siguiente declaración de atribución:
+
+"Este software fue desarrollado por InkaMetrics y Cibertec.Org. Para más información, visite [sitio web de InkaMetrics] y [sitio web de Cibertec.Org]."
+
+6. Limitación de Responsabilidad
+
+El Software se proporciona "tal cual", sin garantías de ningún tipo, expresas o implícitas, incluyendo, pero no limitándose a, garantías de comerciabilidad o adecuación para un propósito particular. InkaMetrics y Cibertec.Org no serán responsables por daños directos, indirectos, incidentales, especiales o consecuentes que resulten del uso o incapacidad para utilizar el Software, incluso si se ha informado de la posibilidad de tales daños.
+
+7. Modificaciones a la Licencia
+
+InkaMetrics y Cibertec.Org se reservan el derecho de modificar esta licencia en cualquier momento. Las modificaciones serán efectivas al momento de su publicación en el sitio web oficial de los Licenciatarios. El uso continuado del Software después de cualquier modificación de esta licencia se considerará como aceptación de los nuevos términos.
+
+8. Aceptación de la Licencia
+
+El uso del Software implica la aceptación de los términos de esta licencia. Si el Usuario no está de acuerdo con estos términos, no debe utilizar el Software. La aceptación de esta licencia es un requisito previo para la instalación y uso del Software.
+
+9. Ley Aplicable
+
+Esta licencia se regirá e interpretará de acuerdo con las leyes del país [especificar país], sin dar efecto a sus principios sobre conflictos de leyes. Cualquier disputa que surja en relación con esta licencia será resuelta por los tribunales competentes del país mencionado.
+
+10. Disposiciones Generales
+
+Separabilidad: Si alguna disposición de esta licencia se considera inválida o inaplicable, las disposiciones restantes seguirán en pleno vigor y efecto.
+
+Acuerdo Completo: Esta licencia constituye el acuerdo completo entre el Usuario y los Licenciatarios en relación con el Software y reemplaza todos los acuerdos anteriores, ya sean escritos u orales.
