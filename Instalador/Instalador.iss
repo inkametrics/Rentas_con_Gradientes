@@ -23,7 +23,7 @@ LicenseFile=C:\Users\Amauta20\OneDrive\017. Macros\Inkapitales\Rentas_con_Gradie
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 OutputDir=C:\Users\Amauta20\OneDrive\017. Macros\Inkapitales\Rentas_con_Gradientes\Instalador
-OutputBaseFilename=mysetup
+OutputBaseFilename=Gradients
 SetupIconFile=C:\Users\Amauta20\OneDrive\017. Macros\Inkapitales\Rentas_con_Gradientes\Instalador\Icono.ico
 Compression=lzma
 SolidCompression=yes
@@ -33,6 +33,6 @@ WizardStyle=modern
 Name: "spanish"; MessagesFile: "compiler:Languages\Spanish.isl"
 
 [Files]
-Source: "C:\Users\Amauta20\OneDrive\017. Macros\Inkapitales\Rentas_con_Gradientes\Instalador\RentasconGradientes4.xlam"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Amauta20\OneDrive\017. Macros\Inkapitales\Rentas_con_Gradientes\Instalador\RentasconGradientes5.xlam"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
