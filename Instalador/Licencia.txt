@@ -4,9 +4,9 @@ Calculadora "Rentas con Gradientes"
 
 InkaMetrics.Com & Cibertec.Org
 
-Versión 4.0
+Versión 5.0
 
-Fecha de entrada en vigor: 20/10/2024
+Fecha de entrada en vigor: 5/11/2024
 
 1. Definiciones
 
@@ -33,6 +33,7 @@ Distribución: El Usuario puede distribuir copias del Software, ya sea en su for
 Se incluya una copia de esta licencia junto con el Software distribuido.
 Se acredite a InkaMetrics y Cibertec.Org como autores originales del Software.
 Se proporcione acceso al código fuente de cualquier versión modificada distribuida.
+
 4. Restricciones
 
 El Usuario acepta las siguientes restricciones al utilizar el Software:
